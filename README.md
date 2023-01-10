@@ -278,5 +278,6 @@ App URL: https://pink-different-oyster.cyclic.app
       - use can text each other this addition feacture
       - u can send emoji also
  ## if u face any problem pls look this videos how you can open and play this game:
- [<img src="" width="50%">]("https://github.com/rafiqul0396/images/blob/main/clideo_editor_2284faed3f2e4c4bad84293360a10079.mp4")
+ > if this is not working download the videos.
+ [![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://github.com/rafiqul0396/images/blob/main/clideo_editor_2284faed3f2e4c4bad84293360a10079%20(2).mp4)
   
