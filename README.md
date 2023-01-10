@@ -237,7 +237,7 @@ App URL: https://pink-different-oyster.cyclic.app
 
 ## simple Demo of this Application
 
-<img src="https://github.com/rafiqul0396/Assigement_HomeWork/blob/master/scrnli_1_10_2023_7-46-02%20PM.png" width="50%" height="50%">
+
 <img src="https://github.com/rafiqul0396/images/blob/main/scrnli_1_10_2023_7-50-56%20PM.png" width="50%" height="50%">
 
 <img src="https://github.com/rafiqul0396/images/blob/main/scrnli_1_10_2023_7-51-06%20PM.png" width="50%" height="50%">
