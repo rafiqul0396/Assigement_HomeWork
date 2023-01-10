@@ -230,7 +230,7 @@ App URL: https://pink-different-oyster.cyclic.app
 
 ### frontend Code are written in React-js 
     - this is Hosting  site:
-    - https://63bcbe3cb037612386e021b7--astonishing-twilight-f21447.netlify.app/
+  Host: https://63bcbe3cb037612386e021b7--astonishing-twilight-f21447.netlify.app/
 
 
 
