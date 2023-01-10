@@ -73,8 +73,7 @@ You can play the game within Google Search by just searching for “tictactoe”
 * Code should be modular, readable, extensible
 * Separation of concern should be addressed
 * Project structured well across multiple files/ packages
-* Write unit tests
-* No need of GUI
+
 
 
 ## Problem Requirements
@@ -137,7 +136,7 @@ The usecase diagram gives us a good idea of the API design. We can have the foll
   
 
 
-# Tic Tac Toe OOP Solution
+# Tic Tac Toe  Solution
 
 To solve the problem, remember to go through a design process first.  Here is how the solution was designed:
 
@@ -165,7 +164,7 @@ Now let's organize these thoughts a little more using words like has, owns, uses
 * The game decides who wins or loses based on the board
 * A board view can be displayed using a board
 
-### Tic Tac Toe OOP Code
+### Tic Tac Toe  Code
 
 Now that we have high level design requirements, let's think of what classes we will need:
 
@@ -206,9 +205,6 @@ A square can have 3 states: empty, X, or O.
 
 
 
-
-
-# serverhello# new-repos
 
 
 
