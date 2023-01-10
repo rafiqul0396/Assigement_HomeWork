@@ -253,6 +253,9 @@ App URL: https://pink-different-oyster.cyclic.app
 
 
 
+## Watch a vidoes how run this app:
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://github.com/rafiqul0396/images/blob/main/clideo_editor_2284faed3f2e4c4bad84293360a10079.mp4)
+
 
 
 
