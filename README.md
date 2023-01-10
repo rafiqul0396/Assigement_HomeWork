@@ -253,13 +253,6 @@ App URL: https://pink-different-oyster.cyclic.app
 
 
 
-## Watch a vidoes how run this app:
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://github.com/rafiqul0396/images/blob/main/clideo_editor_2284faed3f2e4c4bad84293360a10079.mp4)
-
-
-
-
-
 ### How you Play This Game:
  - login with two player
  - u can use on normal brower another by in Cognito mode of Chrome
@@ -279,5 +272,8 @@ App URL: https://pink-different-oyster.cyclic.app
       - u can send emoji also
  ## if u face any problem pls look this videos how you can open and play this game:
  > if this is not working download the videos.
+ >Watch a vidoes how run this app:
+
+
  [![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://github.com/rafiqul0396/images/blob/main/clideo_editor_2284faed3f2e4c4bad84293360a10079%20(2).mp4)
   
