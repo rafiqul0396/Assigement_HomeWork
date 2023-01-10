@@ -140,7 +140,7 @@ The usecase diagram gives us a good idea of the API design. We can have the foll
 
 To solve the problem, remember to go through a design process first.  Here is how the solution was designed:
 
-### Tic Tac Toe OOP Design
+### Tic Tac Toe  Design
 
 First, what are components, processes, and data involved in tic tac toe?  Here is a brain dump of all of the things I can think of:
 
