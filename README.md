@@ -1,3 +1,50 @@
+## 
+
+### **User management**
+    - Users can log in / register using basic info
+    - Email id & username are unique per user
+    - Once logged in, user stays logged in until cache is cleared from the browser
+### **Starting an asynchronous game with anyone via their emai id**
+    - I can only have one ongoing game with any other user
+    - Until that game is finished, I can’t start another game with the same user
+    - I can start a game with anyone using their email id
+    - As soon as the game is created, the intiator gets the first move & other user’s home page reflects the game
+    - Every player sees `X` as their piece & `O` as the other player’s piece in every game
+### **Gameplay**
+    - Should support standard 3x3 Tic Tac Toe game
+    - First player to put their piece in 3 consecutive squares wins the game
+    - Game can be drawn too
+    - These are the possible game states at any point in the game
+        - Won
+        - Drawn
+        - Waiting for other player to play
+        - Waiting for you to play
+### **Home page**
+    - As soon as the games are started, a card is created for every game
+    - These cards are sorted in descending order of their last updated time
+        - Update only happens when the state of the game changes i.e.
+            - When either players play or
+            - Game finishes
+### **Layout**
+    - For the scope of this project, only mobile web layout shall be supported
+### **Miscellaneous**
+    - There’s a chance all edge cases are not supported in the design. Please make your assumptions & state the same in the comments / documentation
+    
+    
+    
+  ### What do you have to submit here?
+
+---
+
+- **Working public URL of deployed game**
+    - You can deploy your frontend & backend on any of the free public services like netlify
+- **Access/link to GitHub repositories which includes -**
+    - All the code
+    - Documentation on how to run the code
+    - Logical explanation of all your architectural choices in the project
+    - Assumptions that you have made
+    - **Document of the problems you faced while building this app**
+
 
 ## What is Tic-Tac-Toe?
 
@@ -83,14 +130,11 @@ rectangle Game {
 ### API or CLI Design
 The usecase diagram gives us a good idea of the API design. We can have the following APIs:
 * Register a player
-  * `API` - `POST /register` - `{"name": "Paul Morphy", "email": "blind@chess.in", ...}`
-  * `CLI` - `tictactoe register --name <name> --email <email> --profile-image <profile-image>`
+ 
 * Start a game
-  * `API` - `POST /game/start` - `{"player1": "paul", "player2": "bot", "board-size": 3}`
-  * `CLI` - `tictactoe start --player1 <player1> --player2 <player2> --board-size <board-size>`
-* Make a move
-  * `API` - `POST /game/move` - `{"player": "paul", "row": 1, "column": 2}`
-  * `CLI` - `tictactoe move --player <player> --row <row> --column <column>`
+ 
+* Login
+  
 
 
 # Tic Tac Toe OOP Solution
@@ -127,7 +171,7 @@ Now that we have high level design requirements, let's think of what classes we 
 
 * game.js - A game of tic tac toe
 * board.js - A tic tac toe game board
-* player.js - A single player
+* player.js - A double player
 * square.js - A square in the tic tac toe game board
 
 
@@ -168,17 +212,27 @@ A square can have 3 states: empty, X, or O.
 
 
 
-## backend deployement in node js
-```text
+## backend Host in Cyclic Cloud
+
 App URL: https://pink-different-oyster.cyclic.app
-```
-backend code repos:
-
-```text
-Code Repository: https://github.com/rafiqul0396/server2
-```
-
-frontend url:
-https://63bcbe3cb037612386e021b7--astonishing-twilight-f21447.netlify.app/
 
 
+    - the backend code written in node js 
+    - hosted in Cyclic Cloud  with github
+    - In the above linked u can see
+    
+     - backend DataBases We are using Stream.io database Api:
+ 
+      - backend code repos:
+
+             -Code Repository: https://github.com/rafiqul0396/server2
+
+
+### frontend Code are written in React-js 
+    - this is Hosting  site:
+    - https://63bcbe3cb037612386e021b7--astonishing-twilight-f21447.netlify.app/
+
+
+
+
+## simple Demo of this Application
